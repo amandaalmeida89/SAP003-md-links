@@ -1,10 +1,3 @@
-// __mocks__/fs.js
-'use strict';
-
-const fs = jest.genMockFromModule('fs');
-
-const mdFile = `# Markdown Links
-
 ## Índice
 
 * [1. Prefácio](#1-prefácio)
@@ -33,7 +26,3 @@ com este formato em qualquer repositório (começando pelo tradicional
 * [ ] [package.json](https://docs.npmjs.com/files/package.json)
 * [ ] criação de módulos [CommonJS](https://nodejs.org/docs/latest-v0.10.x/api/modules.html)
 `;
-
-fs.readFile.mockImplementation( (file, option, cb) => cb(null, mdFile) );
-
-module.exports = fs;
