@@ -1,6 +1,9 @@
 {
   "name": "sap003-md-links",
   "version": "1.0.0",
+  "bin": {
+    "md-links": "./cli.js"
+  },
   "description": "md-links",
   "main": "cli.js",
   "keywords": [
@@ -23,5 +26,8 @@
     "url": "https://github.com/amandaalmeida89/SAP003-md-links.git"
   },
   "author": "Amanda",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
 }
