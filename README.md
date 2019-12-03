@@ -34,9 +34,6 @@ Example
 
 ```
 $ md-links ./some/example.md --validate
-http://algo.com/2/3/ 200 Link de algo
-https://outra-coisa-.net/algum-doc.html 404 algum doc
-http://google.com/ 301 Google
 ```
 ## Usage
 
