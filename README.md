@@ -40,10 +40,14 @@ http://google.com/ 301 Google
 ```
 ## Usage
 
-O executável da nossa aplicação pode ser executado da seguinte maneira, através do terminal:
+The executable of our application can be executed as follows through the terminal:
 
 ```
 md-links <path-to-file> [options]
+```
+For help of our application
+```
+md-links --help
 ```
 
 ## Contribute
