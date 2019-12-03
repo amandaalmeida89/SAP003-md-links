@@ -30,17 +30,17 @@ You can use via CLI (Command Line Interface)
 ```
 $ npm install -g https://github.com/amandaalmeida89/SAP003-md-links
 ```
-Example 
-
-```
-$ md-links ./some/example.md --validate
-```
 ## Usage
 
 The executable of our application can be executed as follows through the terminal:
 
 ```
 md-links <path-to-file> [options]
+```
+Example 
+
+```
+$ md-links ./some/example.md --validate
 ```
 For help of our application
 ```
